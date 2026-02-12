@@ -6,7 +6,7 @@ export default function App() {
   const [contacts, setContacts] = useState([]);
 
   return (
-    <div className="p-8 max-w-[1440px] mx-auto grid grid-cols-3 gap-[70px]">
+    <div className="p-8 max-w-360 mx-auto grid grid-cols-3 gap-17.5">
       <div className="col-span-1 space-y-4">
         <h1 className="text-[32px] font-bold mb-10 text-yellow-500">Contact Management</h1>
         
